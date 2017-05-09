@@ -1,25 +1,20 @@
 import { expect } from 'chai'
-import stringLength from '../src/fn'
+import emptyArray from '../src/fn'
 
-describe('stringLength()', function(){
+describe('emptyArray', function(){
 
   it('is a function', function(){
-    expect(stringLength).to.be.a('function')
+    expect(emptyArray).to.be.a('function')
   })
 
-  it('returns a number', function(){
-    const theLength = stringLength("this is a string")
-    expect(theLength).to.be.a('number')
+  it('returns an array', function(){
+    const theLength = emptyArray([5,7,2])
+    expect(theLength).to.be.a('array')
   })
 
-  it('returns 5 when given “hello”', function(){
-    const theLength = stringLength("hello")
-    expect(theLength).to.be.equal(5)
-  })
-
-  it('incorrect test: returns 5 when given “hello there”', function(){
-    const theLength = stringLength("hello there")
-    expect(theLength).to.be.equal(5)
+  it('returns [7,2] when given [5,7,2]', function(){
+    const theLength = emptyArray([5,7,2])
+    expect(theLength).to.be.deep.equal([7,2])
   })
 
 })
