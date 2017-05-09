@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import _ceil from '../src/_ceil'
+import _ceil from '../../src/math/_ceil'
 
 describe('_ceil()', function(){
 

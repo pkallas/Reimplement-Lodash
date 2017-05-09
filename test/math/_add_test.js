@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import _add from '../src/_add'
+import _add from '../../src/math/_add'
 
 describe('_add()', function(){
 
