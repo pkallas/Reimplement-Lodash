@@ -1,4 +1,4 @@
-# jstest-template
+# Reimplement-Lodash
 
 Template for any Learners Guild project without a forkable repository requiring the creation, linting, and testing of JavaScript ES2015 functions.
 
