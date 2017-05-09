@@ -1,6 +1,6 @@
 # Reimplement-Lodash
 
-Template for any Learners Guild project without a forkable repository requiring the creation, linting, and testing of JavaScript ES2015 functions.
+Reimplementation of some methods of the Lodash JavaScript utility library in ES2015.
 
 ## Installation and Setup
 
@@ -26,7 +26,7 @@ Template for any Learners Guild project without a forkable repository requiring 
 
 ## Usage and Examples
 
-1. Make the project directory (jstest-template) your working directory.
+1. Make the project directory your working directory.
 
 2. Execute “npm test”.
 
