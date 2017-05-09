@@ -1,0 +1,20 @@
+{
+  "name": "jstest-template",
+  "description": "Template for any Learners Guild project without a forkable repository requiring the creation, linting, and testing of JavaScript ES2015 functions.",
+  "private": false,
+  "version": "0.0.0",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-register": "^6.18.0",
+    "chai": "^1.8.1",
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register test/*.js"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}

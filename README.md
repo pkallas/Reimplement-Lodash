@@ -1,6 +1,6 @@
-# Lodash-Common-JS-Utility-fuctions
+# jstest-template
 
-Reimplementation of some methods of the Lodash JavaScript utility library in ES2015.
+Template for any Learners Guild project without a forkable repository requiring the creation, linting, and testing of JavaScript ES2015 functions.
 
 ## Installation and Setup
 
@@ -16,22 +16,40 @@ Reimplementation of some methods of the Lodash JavaScript utility library in ES2
 
     npm test
 
+4. Install ESLint (http://eslint.org) by executing:
+
+    npm install -gS eslint
+    cd
+    eslint --init
+
+5. Edit .eslintrc.json in your home directory to customize.
+
 ## Usage and Examples
 
-0. Existing tests.
+1. Make the project directory (jstest-template) your working directory.
 
-The output of “npm test” should be:
+2. Execute “npm test”.
 
-=====================================
+That command executed in the existing directory should output the following:
 
-```
-> core-algorithms@0.0.0 test «path/to/local/directory»
-> mocha --compilers js:babel-register
+> jstest-template@0.0.0 test /Users/pool/Documents/Topics/train/lguild/projects/jstest-template
+> mocha --compilers js:babel-register test/*.js
 
-(add test output here)
+  stringLength()
+    ✓ is a function
+    ✓ returns a number
+    ✓ returns 5 when given “hello”
+    1) incorrect test: returns 5 when given “hello there”
 
-=====================================
+  3 passing (11ms)
+  1 failing
 
-1. New tests.
+  1) stringLength() incorrect test: returns 5 when given “hello there”:
 
-You can add tests to, or modify tests in, any of the files in the “test” directory and execute “npm test” again.
+      AssertionError: expected 11 to equal 5
+      + expected - actual
+
+      +5
+      -11
+
+npm ERR! Test failed.  See above for more details.
