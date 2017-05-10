@@ -8,14 +8,15 @@
     1. precision is an integer.
 */
 var _floor = function(number, precision) {
-  /*
-    If the arguments are valid (double-checking in case of floating-point
-    rounding error):
-  */
   // If precision is unspecified, make it 0.
   precision = precision || 0;
+  /*
+    If there are exactly 1 or 2 arguments and they are valid (double-checking
+    in case of floating-point rounding error):
+  */
   if (
-    typeof(number) === "number"
+    [1, 2].includes(arguments.length)
+    && typeof(number) === "number"
     && typeof(precision) === "number"
     && Math.ceil(precision) === precision
     && Math.floor(precision) === precision
