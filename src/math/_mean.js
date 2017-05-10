@@ -1,26 +1,6 @@
 import _add from '../../src/math/_add'
 
 /*
-  Define a function to return the sum of 2 specified numbers.
-
-  Preconditions:
-    0. soFar and theNext are numbers.
-
-var sum = function(soFar, theNext) {
-  // If both arguments are numbers:
-  if (typeof(soFar) === "number" && typeof(theNext) === "number") {
-    // Return their sum.
-    return soFar + theNext;
-  }
-  // Otherwise, i.e. if at least 1 argument is not a number:
-  else {
-    // Return a failure result.
-    return undefined;
-  }
-};
-*/
-
-/*
   Define a function to return the mean of the elements in a specified array of numbers.
 
   Preconditions:
