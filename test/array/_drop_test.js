@@ -7,7 +7,7 @@ describe('_drop', function(){
     expect(_drop).to.be.a('function')
   })
 
-  it('returns a number', function(){
+  it('returns an array', function(){
     const theLength = _drop([5,7,2])
     expect(theLength).to.be.a('array')
   })
