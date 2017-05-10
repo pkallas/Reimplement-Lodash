@@ -18,8 +18,8 @@ describe('_max()', function(){
   })
 
   it('returns 6 when given [6]', function(){
-    const mean = _max([6])
-    expect(mean).to.be.equal(6)
+    const max = _max([6])
+    expect(max).to.be.equal(6)
   })
 
   it(

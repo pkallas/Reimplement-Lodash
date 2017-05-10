@@ -1,16 +1,16 @@
 /*
-  Define a function to return the sum of 2 specified numbers.
+  Define a function to return the product of 2 specified numbers.
 
   Preconditions:
-    0. augend and addend are numbers.
+    0. multiplicand and multiplier are numbers.
 */
-var _add = function(augend, addend) {
+var _multiply = function(multiplicand, multiplier) {
   // If there are exactly 2 arguments:
   if (arguments.length === 2) {
     // If the arguments are valid:
-    if (typeof(augend) === "number" && typeof(addend) === "number") {
-      // Return their sum.
-      return augend + addend;
+    if (typeof(multiplicand) === "number" && typeof(multiplier) === "number") {
+      // Return their product.
+      return multiplicand * multiplier;
     }
     // Otherwise, i.e. if either argument is invalid:
     else {
@@ -26,4 +26,4 @@ var _add = function(augend, addend) {
 };
 
 // Export it.
-export default _add;
+export default _multiply;

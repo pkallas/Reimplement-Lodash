@@ -82,4 +82,9 @@ describe('_ceil()', function(){
     expect(sum).to.be.undefined
   })
 
+  it('returns undefined when the count of arguments is 3', function(){
+    const sum = _ceil(9, 4, 99)
+    expect(sum).to.be.undefined
+  })
+
 })
