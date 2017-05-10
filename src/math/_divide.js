@@ -1,16 +1,21 @@
 /*
-  Define a function to return the sum of 2 specified numbers.
+  Define a function to return the quotient of 2 specified numbers.
 
   Preconditions:
-    0. augend and addend are numbers.
+    0. dividend and divisor are numbers.
+    1. divisor is not 0.
 */
-var _add = function(augend, addend) {
+var _divide = function(dividend, divisor) {
   // If the arguments are valid:
-  if (typeof(augend) === "number" && typeof(addend) === "number") {
-    // Return their sum.
-    return augend + addend;
+  if (
+    typeof(dividend) === "number"
+    && typeof(divisor) === "number"
+    && divisor !== 0
+  ) {
+    // Return their quotient.
+    return dividend / divisor;
   }
 };
 
 // Export it.
-export default _add;
+export default _divide;
