@@ -17,6 +17,11 @@ describe('_max()', function(){
     expect(max).to.be.equal(5.1)
   })
 
+  it('returns 6 when given [6]', function(){
+    const mean = _max([6])
+    expect(mean).to.be.equal(6)
+  })
+
   it(
     'returns undefined when any element of the argument is a string',
     function()
@@ -25,7 +30,7 @@ describe('_max()', function(){
     expect(max).to.be.undefined
   })
 
-  it('returns undefined when any elebment of the argument is an array', function(){
+  it('returns undefined when any element of the argument is an array', function(){
     const max = _max([9, [3]])
     expect(max).to.be.undefined
   })

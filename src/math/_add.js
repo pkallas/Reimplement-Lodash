@@ -10,6 +10,11 @@ var _add = function(augend, addend) {
     // Return their sum.
     return augend + addend;
   }
+  // Otherwise, i.e. if either argument is invalid:
+  else {
+    // Return a failure result.
+    return undefined;
+  }
 };
 
 // Export it.
