@@ -2,10 +2,9 @@
 
 // Create a function named _initial.
 function _initial(array) {
-// Remove last element from array
-  array.pop();
-// Return the modified array
-  return array;
+/* Use slice to obtain the first element, and set the end as the array'slength
+minus the last element */
+  return array.slice(0, (array.length - 1))
 }
 
 // Export it.

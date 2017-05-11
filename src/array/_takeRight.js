@@ -1,20 +1,18 @@
 // Creates a slice of array with n elements taken from the end.
 // Create a function named _takeRight.
 function _takeRight(array, number) {
-  // Create a variable of empty array to push into
-  var endSlice = [];
-// Check to see if number is defined
+// Check to see if number is specified
   if (number === undefined) {
-// Move last element of array into empty array
-    endSlice.unshift(array.pop());
+// If undefined, create a slice of array with only last element
+    return array.slice((array.length - 1), (array.length - 1));
   }
-// Loop through array 'number' amount of times
+/* Otherwise, create a loop to obtain the element correlating to the specified
+number */
   else for (var i = 0; i < number; i++) {
-// Move last element of array into empty array for each iteration
-    endSlice.unshift(array.pop());
   }
-// Return new, previously empty array
-  return endSlice;
+/* Return a slice of array from the element at which the loop ended to the end
+of the array */
+    return array.slice(array[i], array.length)
 }
 
 //Export it.
