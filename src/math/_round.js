@@ -20,8 +20,7 @@ var _round = function(number, precision) {
     [1, 2].includes(arguments.length)
     && typeof(number) === "number"
     && typeof(precision) === "number"
-    && Math.ceil(precision) === precision
-    && Math.floor(precision) === precision
+    && Math.ceil(precision) === Math.floor(precision)
   ) {
     // Identify number rounded up and down.
     var upRound = _ceil(number, precision);
