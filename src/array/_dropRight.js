@@ -4,16 +4,11 @@
 function _dropRight(array, number) {
 // Check to see if number is specified
   if (number === undefined) {
-// If not specified, drop only the last element from array
-    array.pop();
+// If not specified, slice end only
+    return array.slice(0, (array.length))
   }
-// Else, loop through array the amount the times as specified by number provided
-  else for (var i = 0; i < number; i++){
-// Remove elements from the end of the array
-    array.pop();
-  }
-// Return the modified array
-  return array;
+// Else, create a slice from start of array to number specified
+  else return array.slice(0, (array.length - number))
 }
 
 // Export it.
