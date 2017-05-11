@@ -6,13 +6,9 @@ function _takeRight(array, number) {
 // If undefined, create a slice of array with only last element
     return array.slice((array.length - 1), (array.length - 1));
   }
-/* Otherwise, create a loop to obtain the element correlating to the specified
-number */
-  else for (var i = 0; i < number; i++) {
-  }
-/* Return a slice of array from the element at which the loop ended to the end
-of the array */
-    return array.slice(array[i], array.length)
+/* Otherwise, create a sliced array from the element specified by number to the
+end of the array */
+    else  return array.slice(array[number], array.length)
 }
 
 //Export it.

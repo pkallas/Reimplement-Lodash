@@ -8,19 +8,11 @@ function _nth(array, number) {
   }
 // If number is defined, check to see if it's positive
   if (number > 0) {
-/* Loop through the function n times, and return the element at the position
-where the loop ended */
-    for (var i = 0; i < number; i++) {
-      }
-    return array[i]
+    return array[number]
   }
 // If number is defined, check to see if it's negative
   if (number < 0) {
-/* Loop through the function n times, and return the element at the position
-where the loop ended */
-    for (var t = 0; t > number; t--) {
-    }
-    return array[array.length + t];
+    return array[array.length + number];
   }
 }
 
