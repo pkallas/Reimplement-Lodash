@@ -1,5 +1,5 @@
-import _ceil from '../../src/math/_ceil'
-import _floor from '../../src/math/_floor'
+import _ceil from "../../src/math/_ceil";
+import _floor from "../../src/math/_floor";
 
 /*
   Define a function to round the first argument with a precision of the second

@@ -3,9 +3,9 @@
 function _lt (value1, value2) {
 // Check to see if value1 is less than value2
   if (value1 < value2) {
-    return true
+    return true;
   }
-  else return false
+  else return false;
 }
 
 // Export it.

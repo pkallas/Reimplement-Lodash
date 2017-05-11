@@ -6,10 +6,10 @@ function _castArray(value) {
 // Check to see if value is an array
   if (Array.isArray(value) === true) {
 // If true, do not change value
-    return value
+    return value;
   }
 // Else, change value to be cast as an array
-  else return castValue
+  else return castValue;
 }
 
 // Export it.

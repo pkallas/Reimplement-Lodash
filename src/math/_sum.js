@@ -1,9 +1,9 @@
-import _add from '../../src/math/_add'
+import _add from "../../src/math/_add";
 
 // Define a function to return the sum of the first 2 of 4 arguments.
 var add2 = function(a, b, c, d) {
   return _add(a, b);
-}
+};
 
 /*
   Define a function to return the sum of the elements in a specified array of numbers.

@@ -17,7 +17,7 @@ function _chunk(array, size) {
     emptyArray.push(array.shift());
   }
 // Return the now chunked array
-  return chunkArray
+  return chunkArray;
 }
 
 // Export it.

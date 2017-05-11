@@ -11,7 +11,7 @@ and move it into the start of the empty array */
     reversedArray.unshift(array.shift());
   }
 // Return the previously empty array
-  return reversedArray
+  return reversedArray;
 }
 
 // Export it.

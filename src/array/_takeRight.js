@@ -14,7 +14,7 @@ function _takeRight(array, number) {
     endSlice.unshift(array.pop());
   }
 // Return new, previously empty array
-  return endSlice
+  return endSlice;
 }
 
 //Export it.

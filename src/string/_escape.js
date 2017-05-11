@@ -6,7 +6,7 @@ var convertibles = [
   ["&", "&amp;"],
   ["<", "&lt;"],
   [">", "&gt;"],
-  ['"', "&quot;"],
+  ["\"", "&quot;"],
   ["'", "&apos;"]
 ];
 
@@ -29,7 +29,7 @@ var _escape = function(string) {
       string = string.replace(
         RegExp(convertibles[i][0], "g"),
         convertibles[i][1]
-      )
+      );
     }
     // Return the converted string.
     return string;
