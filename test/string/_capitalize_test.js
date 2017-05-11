@@ -37,12 +37,12 @@ describe('_capitalize()', function(){
     expect(capString).to.be.equal("アドルフ in германия is 34 years old morgaŭ!")
   })
 
-  it('returns undefined when either argument is a number', function(){
+  it('returns undefined when the argument is a number', function(){
     const capString = _capitalize(98.6)
     expect(capString).to.be.undefined
   })
 
-  it('returns undefined when either argument is an array', function(){
+  it('returns undefined when the argument is an array', function(){
     const capString = _capitalize(["This is a string."])
     expect(capString).to.be.undefined
   })
