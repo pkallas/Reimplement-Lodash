@@ -24,11 +24,55 @@ Reimplementation of some methods of the Lodash JavaScript utility library in ES2
 
 5. Edit .eslintrc.json in your home directory to customize.
 
+## Methods included in repository
+
+0. array
+  _chunk.js
+  _drop.js
+  _dropRight.js
+  _head.js
+  _initial.js
+  _last.js
+  _nth.js
+  _reverse.js
+  _tail.js
+  _take.js
+  _takeRight.js
+1. lang
+  _castArray.js
+  _gt.js
+  _gte.js
+  _isArray.js
+  _isTypedArray.js
+  _lt.js
+  _lte.js
+2. math
+  _add.js
+  _ceil.js
+  _divide.js
+  _floor.js
+  _max.js
+  _mean.js
+  _min.js
+  _multiply.js
+  _round.js
+  _subtract.js
+  _sum.js
+3. string
+  _capitalize.js
+  _endsWith.js
+  _escape.js
+  _escapeRegExp.js
+  _lowerFirst.js
+  _pad.js
+  _padEnd.js
+  _padStart.js
+
 ## Usage and Examples
 
-1. Make the project directory your working directory.
+0. Make the project directory your working directory.
 
-2. Execute “npm test”.
+1. Execute “npm test”.
 
 That command executed in the existing directory should output the following:
 
