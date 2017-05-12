@@ -17,4 +17,9 @@ describe('_dropRight', function(){
     expect(theLength).to.be.deep.equal([5])
   })
 
+  it('returns [5, 7] when given [5,7,2]', function(){
+    const theLength = _dropRight([5,7,2])
+    expect(theLength).to.be.deep.equal([5, 7])
+  })
+
 })

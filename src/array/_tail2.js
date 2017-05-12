@@ -2,8 +2,8 @@
 
 // Create function named _tail.
 function _tail(array) {
-// Use slice to create an array with all but the first element
-  return array.slice(1, array.length);
+  // Return an array with all but the first element
+  return array.slice(1);
 }
 
 // Export it.

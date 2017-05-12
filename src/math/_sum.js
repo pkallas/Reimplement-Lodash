@@ -1,7 +1,7 @@
 import _add from "../../src/math/_add";
 
 // Define a function to return the sum of the first 2 of 4 arguments.
-var add2 = function(a, b, c, d) {
+var add2 = function(a, b) {
   return _add(a, b);
 };
 
