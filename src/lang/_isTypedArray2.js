@@ -1,6 +1,6 @@
 // Checks whether value is classified as a typed array.
 // Create function named _isTypedArray
-function _isTypedArray (value) {
+var _isTypedArray = value => {
   // Return whether value is a typed array.
   return [
     "[object Int8Array]",
