@@ -13,6 +13,7 @@ function _chunk(array, size) {
   // As long as there are elements to chunk:
   while (startIndex < array.length) {
     newArray.push(array.slice(startIndex, startIndex + size));
+    startIndex += size;
   }
   // Return the new array.
   return newArray;
