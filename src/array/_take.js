@@ -4,7 +4,7 @@ function _take(array, number) {
 // Check to see if number is defined
   if (number === undefined) {
 // Return slice of array with only first element
-    return array.slice(0, 0);
+    return array.slice(0, 1);
   } // Return slice of array with length to specified number
   else return array.slice(0, number);
 }

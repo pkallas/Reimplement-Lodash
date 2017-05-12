@@ -32,4 +32,9 @@ describe('_chunk', function(){
     expect(theLength).to.be.deep.equal([[1], [2], [3], [4], [5], [6]])
   })
 
+  it('returns [[1,2,3], [4,5,6], [7]] when given [1,2,3,4,5,6,7, 3]', function(){
+    const theLength = _chunk([1,2,3,4,5,6,7], 3)
+    expect(theLength).to.be.deep.equal([[1,2,3], [4,5,6], [7]])
+  })
+
 })
