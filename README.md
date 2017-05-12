@@ -2,6 +2,10 @@
 
 Reimplementation of some methods of the Lodash JavaScript utility library in ES2015.
 
+This project employs a mixture of ES2015’s permitted syntaxes for the
+definition of functions. The specifications do not require stylistic
+uniformity.
+
 ## Installation and Setup
 
 0. These instructions presuppose that npm (https://nodejs.org/en/) is installed.
