@@ -1,7 +1,7 @@
 // Gets the last element of array.
 
 // Create a function named _last.
-function _last(array) {
+var _last = array => {
   // Return the element
   return array[array.length - 1];
 }

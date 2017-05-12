@@ -1,6 +1,6 @@
 // Casts value as an array if it's not one.
 // Create a funtion named _castArray
-function _castArray(value) {
+var _castArray = value => {
   // If value is an array:
   if (Array.isArray(value)) {
     // Return it.

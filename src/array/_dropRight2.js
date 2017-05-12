@@ -3,7 +3,7 @@
   from the end.
 */
 // Create function named _dropRight
-function _dropRight(array, number) {
+var _dropRight = (array, number) => {
   // Return the slice
   return array.slice(0, array.length - (number || 1));
 }

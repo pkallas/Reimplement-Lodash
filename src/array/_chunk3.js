@@ -3,7 +3,7 @@
   array can’t be split evenly, the final chunk will be the remaining elements.
 */
 // Create a function named _chunk
-function _chunk(array, size) {
+var _chunk = (array, size) => {
   // Identify the chuck size.
   size = size || 1;
   // Initialize the starting index of the next elements to chunk.
