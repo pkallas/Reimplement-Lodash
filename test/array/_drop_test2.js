@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import _drop from '../../src/array/_drop'
+import _drop from '../../src/array/_drop2'
 
 describe('_drop', function(){
 
