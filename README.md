@@ -29,27 +29,27 @@ Reimplementation of some methods of the Lodash JavaScript utility library in ES2
 ## Methods included in repository
 
 ```
-0. array
-  _chunk.js
-  _drop.js
-  _dropRight.js
-  _head.js
-  _initial.js
-  _last.js
-  _nth.js
-  _reverse.js
-  _tail.js
-  _take.js
-  _takeRight.js
-1. lang
-  _castArray.js
-  _gt.js
-  _gte.js
-  _isArray.js
-  _isTypedArray.js
-  _lt.js
-  _lte.js
-2. math
+array
+  _chunk3.js
+  _drop2.js
+  _dropRight2.js
+  _head2.js
+  _initial2.js
+  _last2.js
+  _nth2.js
+  _reverse2.js
+  _tail2.js
+  _take2.js
+  _takeRight2.js
+lang
+  _castArray2.js
+  _gt2.js
+  _gte2.js
+  _isArray2.js
+  _isTypedArray2.js
+  _lt2.js
+  _lte2.js
+math
   _add.js
   _ceil.js
   _divide.js
@@ -61,7 +61,7 @@ Reimplementation of some methods of the Lodash JavaScript utility library in ES2
   _round.js
   _subtract.js
   _sum.js
-3. string
+string
   _capitalize.js
   _endsWith.js
   _escape.js
@@ -70,6 +70,7 @@ Reimplementation of some methods of the Lodash JavaScript utility library in ES2
   _pad.js
   _padEnd.js
   _padStart.js
+  _repeat.js
 ```
 
 ## Usage and Examples
