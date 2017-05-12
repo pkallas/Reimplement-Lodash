@@ -5,7 +5,7 @@ function _dropRight(array, number) {
 // Check to see if number is specified
   if (number === undefined) {
 // If not specified, slice end only
-    return array.slice(0, (array.length))
+    return array.slice(0, (array.length - 1))
   }
 // Else, create a slice from start of array to number specified
   else return array.slice(0, (array.length - number))
