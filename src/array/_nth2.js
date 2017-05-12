@@ -8,7 +8,7 @@ var _nth = (array, number) => {
   number = number || 0;
   // Return the element.
   return array[number < 0 ? array.length + number : number];
-}
+};
 
 //Export it.
 export default _nth;

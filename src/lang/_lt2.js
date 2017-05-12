@@ -2,8 +2,8 @@
 // Create function named _lt
   var _lt = (value, other) => {
   // Return whether value is less than other
-   return value < other;
-}
+    return value < other;
+  };
 
 // Export it.
-export default _lt;
+  export default _lt;

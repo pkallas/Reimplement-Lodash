@@ -13,7 +13,7 @@ var _isTypedArray = value => {
     "[object Float32Array]",
     "[object Float64Array]"
   ].includes(Object.prototype.toString.call(value));
-}
+};
 
 //Export it.
 export default _isTypedArray;

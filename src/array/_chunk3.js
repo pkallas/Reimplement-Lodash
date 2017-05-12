@@ -17,7 +17,7 @@ var _chunk = (array, size) => {
   }
   // Return the new array.
   return newArray;
-}
+};
 
 // Export it.
 export default _chunk;

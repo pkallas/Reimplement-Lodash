@@ -3,7 +3,7 @@
 var _takeRight = (array, number) => {
   // Return the slice.
   return array.slice(- (number || 1));
-}
+};
 
 //Export it.
 export default _takeRight;

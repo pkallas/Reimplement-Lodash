@@ -8,7 +8,7 @@ var _castArray = value => {
   }
   // Else, return it cast as an array
   else return [value];
-}
+};
 
 // Export it.
 export default _castArray;

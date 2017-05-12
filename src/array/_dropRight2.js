@@ -6,7 +6,7 @@
 var _dropRight = (array, number) => {
   // Return the slice
   return array.slice(0, array.length - (number || 1));
-}
+};
 
 // Export it.
 export default _dropRight;

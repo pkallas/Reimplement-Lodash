@@ -4,7 +4,7 @@
 var _tail = array => {
   // Return an array with all but the first element
   return array.slice(1);
-}
+};
 
 // Export it.
 export default _tail;

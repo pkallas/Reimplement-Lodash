@@ -4,7 +4,7 @@
 var _last = array => {
   // Return the element
   return array[array.length - 1];
-}
+};
 
 //Export it.
 export default _last;

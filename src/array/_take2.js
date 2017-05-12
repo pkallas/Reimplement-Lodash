@@ -3,7 +3,7 @@
 var _take = (array, number) => {
   // Return the slice.
   return array.slice(0, number || 1);
-}
+};
 
 //Export it.
 export default _take;

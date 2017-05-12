@@ -2,8 +2,8 @@
 // Create function named _isArray
 var _isArray = element => {
   // Return whether element is an array
-   return Array.isArray(element);
-}
+  return Array.isArray(element);
+};
 
 //Export it.
 export default _isArray;

@@ -6,7 +6,7 @@ var _drop = (array, number) => {
     of array
   */
   return array.slice(number || 1);
-}
+};
 
 // Export it.
 export default _drop;
