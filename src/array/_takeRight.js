@@ -8,7 +8,7 @@ function _takeRight(array, number) {
   }
 /* Otherwise, create a sliced array from the element specified by number to the
 end of the array */
-    else  return array.slice(array[number], array.length)
+  else  return array.slice(array[number], array.length);
 }
 
 //Export it.

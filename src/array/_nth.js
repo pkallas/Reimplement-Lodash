@@ -8,7 +8,7 @@ function _nth(array, number) {
   }
 // If number is defined, check to see if it's positive
   if (number > 0) {
-    return array[number]
+    return array[number];
   }
 // If number is defined, check to see if it's negative
   if (number < 0) {

@@ -7,7 +7,7 @@ function _drop(array, number) {
     return array.slice(1, (array.length + 1));
   }
 // Else, slice starting from specified number to end of array
-  else return array.slice(number, (array.length + 1))
+  else return array.slice(number, (array.length + 1));
 }
 // Export it.
 export default _drop;
