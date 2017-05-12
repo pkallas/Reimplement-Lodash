@@ -19,13 +19,16 @@ Reimplementation of some methods of the Lodash JavaScript utility library in ES2
 4. Install ESLint (http://eslint.org) by executing:
 
     npm install -gS eslint
+
     cd
+
     eslint --init
 
 5. Edit .eslintrc.json in your home directory to customize.
 
 ## Methods included in repository
 
+```
 0. array
   _chunk.js
   _drop.js
@@ -67,6 +70,7 @@ Reimplementation of some methods of the Lodash JavaScript utility library in ES2
   _pad.js
   _padEnd.js
   _padStart.js
+```
 
 ## Usage and Examples
 
